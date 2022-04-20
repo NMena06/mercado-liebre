@@ -1,0 +1,472 @@
+/*Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+
+* article {
+  /*box-shadow:  0px 0px 10px rgb(100, 100, 100);*/
+  width: 45%;
+}
+
+* article:hover {
+  box-shadow:  0px 0px 10px rgb(100, 100, 100);
+}
+
+
+/*body*/
+
+body {
+  /*display: inline;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;   
+  background-color: #ebebeb;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.input{
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  height: 35px;
+}
+
+/*header*/
+
+header {
+  background-color: #EAC926;
+  padding: 20px;
+}
+
+.logo {
+  width: 35%;
+}
+
+.main-header {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+    padding: 10px;
+}
+
+.hamburguer-button {
+  background-color:  #03264C;
+  color: white;
+  display: block;
+  max-width: 50px;
+  padding: 15px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+
+.banner img{
+  max-width: 100%;
+}
+
+
+.site, .login{
+  display: none;
+}
+
+
+
+/*main*/
+main {
+  text-align: center;
+  width: 90vw;
+  background-color: #ebebeb;
+}
+
+
+.main-section-views__list article:hover p {
+  display: block;
+}
+
+.main-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  color: #222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+}
+.main-navbar li:hover {
+  color: black;
+  transition: 0.3s;
+  transform: scale(1.1); 
+}
+
+.main-section-views, .main-section-offers {
+  display: block;
+  width: 90vw;
+  background-color: #ebebeb;
+  box-sizing: border-box;
+}
+
+
+.main-section-views__list{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: 11%;
+}
+
+
+main section h2{
+  margin-left: 12%;
+}
+
+.search-bar{
+  text-align: right;
+  width: 50%;
+  padding: 15px;
+  display: inline;
+  justify-content: center;
+  background-color: #FFF;
+  padding: 2px;
+  border-radius: 90px;
+  margin: 3px;
+}
+
+
+
+
+.control-search{
+  width: 90%;
+  padding: 10px;
+  border: none;
+  display: inline;
+  border-radius: 5px;
+  }
+
+.block{
+  display: block;
+}
+
+/*art*/
+
+.main-section__art  i{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid  #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  /*position:relative;*/
+  right: -200px;
+  top: -15px;
+  margin-left: 80%;
+  transition: 1s;
+}
+
+.main-section__art i,
+.descu{
+    color:  #39b54a;
+}
+
+.main-section__art {
+  display: block;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  margin: 10px;
+  width: 50%;
+  background-color: white;
+}
+
+.main-section:hover{
+  box-shadow: 5px;
+  background-color: darkgray;
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descu {
+  font-size: 16px;
+  color: #39b54a;
+  width: 70%;
+}
+
+.descr {
+    font-size: 16px;
+    display: none;
+}
+
+.precio-descuento{
+  display: flex;
+  justify-items: auto;
+  flex-wrap: wrap;
+}
+
+.product__info {
+  border-top: 1px solid rgba(51,51,51,.1);
+  color: rgb(51, 51, 51);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 16px;
+  position: relative;
+
+}
+
+img {
+  width: 100%;
+}
+
+/*footer*/
+
+.footer {
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+.footer i {
+  font-size: 2em;
+  transition: 0.5s;
+  color: #1259c3;
+}
+
+.footer section:hover i{
+  transform: scale(1.1); 
+  color: #033886;
+
+}
+
+.footer section {
+  padding: 20px;
+}
+
+.footer section .copyright{
+  text-align: center;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+/*Formulario registro*/
+
+form{
+  display: inline;
+}
+
+.form-register {
+  padding:  20px ;
+  
+}
+
+.form-control {
+  margin: 20px;
+}
+
+.form-check {
+  padding: 3px;
+
+}
+
+.boton-formulario {
+  background-color: #1259c3;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5%;
+}
+
+.boton-sign{
+  background-color: #1259c3;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5%;
+  text-align: center;
+  margin: 20px;
+  width: 90%;
+}
+
+
+
+.control {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  display: inline;
+  border-radius: 5px;
+}
+
+
+.checkbox-list {
+  margin-left: 10px;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.form-button {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.form-button:hover{
+  transition: 1s;
+  color: #0022AA;
+
+}
+
+.title-form{
+  margin-bottom: 5px;
+}
+
+.perfil {
+  margin-bottom: 5px;
+}
+
+.control:invalid{
+  background-color: lightpink;
+  
+}
+
+
+.checklist{
+  margin-left: 15px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+
+
+
+/*medias*/
+
+
+/*Tabletas*/
+
+@media (min-width: 768px) {
+  .main-header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  }
+  .hamburguer-button {
+    display: none;
+  }
+  .main-navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-navbar ul {
+    display: flex;
+  }
+  .main-navbar li {
+    margin: 0 5px;
+  }
+  .site, .login {
+    display: block;
+  }
+
+  .main-section__art{
+    width: 33%;
+  }
+
+  .main-section-views  h2{
+    display: flex;
+    justify-content: left;
+  }
+
+  main section h2{
+    margin-left: 24%;
+  }
+  .top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+  }
+
+
+
+
+/*PCs*/
+@media (min-width: 1200px) {
+  .logo{
+    width: 35%;
+  }
+
+
+  .main-header, .main-navbar{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .main-navbar li {
+    margin: 0 10px;
+  }
+  .main-navbar a {
+    font-size: 19px;
+  }
+
+
+
+  .main-section__art{
+    width: 23%;
+  }
+
+  .main-section__art:hover  i{
+    transform: rotate(-90deg);
+    transition: 0.5;
+  }
+
+  main section h2{
+    margin-left: 12%;
+  }
+
+  .top-bar {
+    max-width: none;
+    font-size: 18px;
+    font-weight: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
